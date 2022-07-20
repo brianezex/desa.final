@@ -8,6 +8,11 @@
 	padding: 4px;
 }
 
+@mixin d-flex($justify,){
+    display: flex;
+	justify-content: $justify;
+}
+
 
 $paleta:(
     'uno':#ffe599,

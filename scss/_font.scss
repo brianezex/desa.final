@@ -1,2 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 $fontMain:'Roboto', sans-serif;
+
+*{
+    font-family: $fontMain;
+}
