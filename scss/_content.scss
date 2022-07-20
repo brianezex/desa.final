@@ -1,0 +1,30 @@
+body{
+    background-color: map-get($map:$paleta, $key: 'cinco');
+    overflow-x: hidden;
+    
+}
+
+nav, footer{
+    background-color: map-get($map:$paleta, $key: 'uno')
+}
+
+.card{
+    background-color: map-get($map:$paleta, $key: 'tres')
+}
+
+h1{
+	@include texto(3em,3em,rgba(255, 68, 168, 0.668),center);
+}
+
+h2{
+    @include texto(2em,2.4em,rgba(255, 68, 168, 0.668),center)
+}
+
+p{
+    @include texto(1.5em,2em,black,center); 
+}
+.card{
+    p{
+        @include texto(1em,1.4em,black,center);
+    }
+}

@@ -1,0 +1,18 @@
+
+//mixins
+@mixin texto($size,$line-height,$color,$text){
+	font-size: $size;
+	line-height: $line-height;
+	color:$color;
+    text-align: $text;
+	padding: 4px;
+}
+
+
+$paleta:(
+    'uno':#ffe599,
+    'dos':#d5a6bd98,
+    'tres':#dfa1d4,
+    'cuatro':#bd9eb8,
+    'cinco':#faced2,
+)
